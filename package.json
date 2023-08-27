@@ -1,0 +1,32 @@
+{
+    "name": "react-new-beginning",
+    "version": "1.0.0",
+    "description": "Learn react from scratch",
+    "main": "index.html",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shaliniM12/react-new-beginning.git"
+    },
+    "keywords": [
+        "react",
+        "parcel",
+        "tailwind"
+    ],
+    "author": "Shalini Chaturvedi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shaliniM12/react-new-beginning/issues"
+    },
+    "homepage": "https://github.com/shaliniM12/react-new-beginning#readme",
+    "devDependencies": {
+        "parcel": "^2.9.3",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}

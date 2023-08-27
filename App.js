@@ -1,3 +1,5 @@
+import React from "react"; // importing React from node modules
+import ReactDOM from "react-dom/client"; // importing React from node modules
 /*
 <div id='parent'>
     <div id='child'>
@@ -27,8 +29,6 @@ const reactHeading = React.createElement(
     { id: "heading", className: "heading" }, //props
     "Hello world from React!!!!" //props
 );
-
-console.log(reactHeading);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
