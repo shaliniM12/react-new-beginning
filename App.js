@@ -13,6 +13,8 @@ import ReactDOM from "react-dom/client"; // importing React from node modules
 </div>
  */
 
+//using React.createElement creating elements starts
+// * React.createElement => ReactElement - JS Object {} => HTML Element
 const parent = React.createElement("div", { id: "parent" }, [
     React.createElement("div", { id: "child" }, [
         React.createElement("h1", {}, "Hello! How are you?"),
@@ -29,7 +31,30 @@ const reactHeading = React.createElement(
     { id: "heading", className: "heading" }, //props
     "Hello world from React!!!!" //props
 );
+// * React createElement ends *****
+
+// React Element
+const heading = (
+    <h1 className="heading" tabIndex="2">
+        Hello, I'm JSX inside your React application
+    </h1>
+);
+
+const Title = () => (
+    <h1 className="heading" tabIndex="2">
+        Hello, I'm JSX inside your React application
+    </h1>
+);
+
+const HeadingComponent = () => {
+    return (
+        <div className="container">
+            <Title />
+            <h1>Hello, I'm heading Component</h1>
+        </div>
+    );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(<HeadingComponent />);

@@ -2,8 +2,9 @@
     "name": "react-new-beginning",
     "version": "1.0.0",
     "description": "Learn react from scratch",
-    "main": "index.html",
     "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
         "test": "jest"
     },
     "repository": {
