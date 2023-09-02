@@ -1,4 +1,4 @@
-# react-new-beginning
+# react-new-beginning 🚀
 
 This repository is for learning react from scratch
 
@@ -21,3 +21,29 @@ This repository is for learning react from scratch
 -   Capibilty to host the application on HTTPs
 -   Tree shaking: meaning removing unsed code
 -   For using parcel, we need to remove main: '' from package.json as it mentions that whatever is inside main is the entry point for the NPM which is not as we define it while executing NPX
+
+# Food ordering Application:
+
+-   Header
+-   -   Logo
+-   -   Nav Items
+-   Body
+-   -   Search
+-   -   Restaurant container
+-                    - Restaurant Card
+-                        - Image
+-                        - Name
+-                        - Star ratings
+-                        - Cuisines
+-                        - delivery time
+-   Footer
+-   -   Copyright
+-   -   Links
+-   -   Address
+-   -   Contact
+
+# React hooks:
+
+    Normal JS utility functions
+    - useState() - super powerful state variables
+    - useEffect() -
